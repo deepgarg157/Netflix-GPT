@@ -5,7 +5,7 @@
 - Header
 - Login form Page
 - Sign up page
-- validate the form data though useRef()
+- validate the form data though useRef() Hook
 - fireBase for hosting on the server
 - command for firebase
 - npm i firebase 
@@ -14,3 +14,7 @@
 - npm run build
 - npx firebase deploy
 - https://netflixgpt-104b0.web.app
+- Create sign up user account
+- Now redux for store the user data
+- npm i -D @reduxjs/toolkit
+- npm i react-redux
