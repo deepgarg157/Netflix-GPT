@@ -4,6 +4,7 @@ import { useState, useRef } from "react"
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../Utility/firebase";
 import { useNavigate } from "react-router-dom";
+import { BG_URL } from "../Utility/constants";
 
 const Login = () => {
 
@@ -58,7 +59,7 @@ const Login = () => {
     
     return (
         <div>
-            <img className="absolute" src="https://assets.nflxext.com/ffe/siteui/vlv3/dace47b4-a5cb-4368-80fe-c26f3e77d540/f5b52435-458f-498f-9d1d-ccd4f1af9913/IN-en-20231023-popsignuptwoweeks-perspective_alpha_website_large.jpg"></img>
+            <img className="absolute" src={BG_URL}></img>
 
             <form onSubmit={(e) => e.preventDefault()} className="bg-black w-4/12 absolute top-32 left-1/3 rounded-md bg-opacity-80 text-white">
                 <h1 className="text-white px-20 m-4 text-2xl">{isSignInForm ? "Sign In" : "Sign Up"}</h1>
