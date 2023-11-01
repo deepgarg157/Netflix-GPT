@@ -20,3 +20,5 @@
 - Add hardcoded values to the constants file
 - Regiter TMDB API & create an app & get access token
 - Get Data from TMDB now playing movies list API
+- https://platform.openai.com/
+- API key - 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
