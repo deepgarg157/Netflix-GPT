@@ -55,11 +55,11 @@ const Header = () => {
 
             <div className="flex">
 
-                {showLanguage && <select className="my-8 mx-2 rounded-sm px-3" onChange={handleChangeLanguage}>
+                {/* {showLanguage && <select className="my-8 mx-2 rounded-sm px-3" onChange={handleChangeLanguage}>
                     {SUPPORTED_LANGUAGES.map((lang) => <option key={lang.identifier} value={lang.identifier}>{lang.name}</option>)}
-                </select>}
+                </select>} */}
                 
-                <button className="px-4 bg-gray-500 rounded-md h-10 mt-8 text-white font-bold" onClick={handleGptSearchClick}>{showLanguage ? "Home Page" : "GPT Search"}</button>
+                {/* <button className="px-4 bg-gray-500 rounded-md h-10 mt-8 text-white font-bold" onClick={handleGptSearchClick}>{showLanguage ? "Home Page" : "GPT Search"}</button> */}
                 <img src={smileylogo} className="w-10 my-8 mx-2"></img>
                 <button className="text-white px-4" onClick={handleSignOut}>Sign out</button>
 
